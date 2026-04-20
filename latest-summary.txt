@@ -1,0 +1,19 @@
+🤖 *오늘의 AI 트렌드 요약* — 2026.04.21
+
+핵심 흐름: "모델 경쟁 → 에이전트 인프라 경쟁"으로 축이 이동
+
+🔑 *핫 키워드*
+• 에이전틱 AI / 추론형 LLM
+• 에이전트 인프라 (Cloudflare Agent Cloud, General Compute)
+• Claude Opus 4.7 (4/16 출시) — 개발자 선호도 78%
+• Hermes Agent — 6주만에 57k GitHub 스타
+• 보안 특화 모델 (OpenAI GPT-5.4-Cyber, Anthropic Mythos)
+
+📰 *주요 기사 3선*
+1. OpenAI, GPT-5.4-Cyber 제한 공개 (Bloomberg)
+2. Cloudflare Agent Cloud 확장 (MindWiredAI)
+3. Anthropic Claude Design 출시
+
+⚠️ *경고* — Flowise AI Agent Builder CVSS 10.0 RCE 취약점. 사내 배포 전 점검 필수.
+
+🔗 풀 리포트 보기 👇

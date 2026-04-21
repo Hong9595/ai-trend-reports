@@ -103,6 +103,57 @@
   }
   .kw-card h3 { margin: 0 0 6px; font-size: 16px; }
   .kw-card p { font-size: 14px; color: var(--muted); margin: 0; }
+  .platform-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-top: 14px;
+  }
+  @media (min-width: 720px) {
+    .platform-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  .platform-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 22px;
+    display: flex;
+    flex-direction: column;
+  }
+  .platform-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed var(--border);
+  }
+  .platform-icon {
+    width: 34px; height: 34px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .platform-icon.x { background: rgba(255,255,255,0.08); color: #fff; }
+  .platform-icon.reddit { background: rgba(255,88,44,0.18); color: #ff7a45; }
+  .platform-icon.hn { background: rgba(255,153,51,0.18); color: #ff9933; }
+  .platform-name { font-weight: 700; font-size: 15px; }
+  .platform-sub { font-size: 12px; color: var(--muted); }
+  .platform-card ul { margin: 0; padding-left: 18px; font-size: 13.5px; color: #d4dae5; }
+  .platform-card ul li { margin-bottom: 10px; line-height: 1.55; }
+  .platform-card ul li strong { color: var(--text); }
+  .metric {
+    display: inline-block;
+    background: rgba(124,156,255,0.14);
+    color: var(--accent);
+    font-size: 11px;
+    padding: 1px 7px;
+    border-radius: 999px;
+    margin-left: 4px;
+  }
   .article {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -316,6 +367,70 @@
         </div>
 
       </div>
+
+      <h3 style="margin-top:32px;">🌐 플랫폼별 심층 분석</h3>
+      <p style="color:var(--muted); font-size:14px; margin-top:-4px;">X·Reddit·Hacker News 각각에서 지난 7일간 실제로 가장 많이 회자된 포스트·스레드·Show HN 프로젝트를 추렸습니다.</p>
+      <div class="platform-grid">
+
+        <div class="platform-card">
+          <div class="platform-header">
+            <div class="platform-icon x">𝕏</div>
+            <div>
+              <div class="platform-name">X (Twitter)</div>
+              <div class="platform-sub">AI 타임라인 · 창업자/파운더 중심</div>
+            </div>
+          </div>
+          <ul>
+            <li><strong>Claude Code 소스 코드 유출</strong> <span class="metric">21M views</span><br>3/31 해프닝이지만 4월 내내 파생 논의 지속. 초기 "창피한 사고" 프레임 → "최첨단 <em>에이전트 하네스 설계</em>를 공개적으로 스터디할 기회"로 담론이 전환. 오케스트레이션 로직이 공개된 것이지 모델 가중치가 아니라는 점이 핵심.</li>
+            <li><strong>OpenClaw 글로벌 바이럴</strong><br>Sam Altman이 직접 언급 + Fortune 특집 + NVIDIA 호환 제품 급속 출시의 3연타. "개발자가 OpenAI에 스카우트됨" 서사가 엔지니어 타임라인에서 크게 소비.</li>
+            <li><strong>@claudeai computer-use 데모</strong><br>"앱 열고, 브라우저 다루고, 스프레드시트 채워준다" 포스트가 데스크톱 에이전트에 대한 기대치를 재점화. macOS 한정 리서치 프리뷰.</li>
+            <li><strong>Bernie Sanders × Claude 인터뷰 영상</strong><br>"AI가 개인정보 수집에 대해 말하다" 클립이 정치권발 AI 규제 담론을 다시 불러옴.</li>
+          </ul>
+        </div>
+
+        <div class="platform-card">
+          <div class="platform-header">
+            <div class="platform-icon reddit">R</div>
+            <div>
+              <div class="platform-name">Reddit</div>
+              <div class="platform-sub">r/LocalLLaMA · r/singularity · r/vibecoding</div>
+            </div>
+          </div>
+          <ul>
+            <li><strong>Qwen 3.5 패밀리 "최다 추천"</strong><br>r/LocalLLaMA에서 4월 기준 가장 광범위하게 추천되는 로컬 LLM 계열. 코드·수학·다국어 고르게 커버된다는 평가.</li>
+            <li><strong>"Best Local LLMs — Apr 2026"</strong> <span class="metric">143 posts</span><br>월초부터 쌓인 메가 스레드. 코드 자동완성용 로컬 모델 질문이 주기적으로 등장.</li>
+            <li><strong>"How to Distill 100B+ → &lt;4B Models"</strong> <span class="metric">129 posts</span><br>로컬 추론을 위한 경량화가 실무 관심사로 이동했음을 상징하는 스레드.</li>
+            <li><strong>r/singularity 인기 포스트</strong> <span class="metric">115 upvotes</span><br>"+11% on SWE-bench Pro is gonna be a nice jump before 5 drops" — Claude Opus 4.7 벤치 관련 밈/기대.</li>
+            <li><strong>Opus 4.7 리그레션 리포트</strong><br>에이전틱 검색에서 회귀 사례가 커뮤니티발로 보고되며 Anthropic 대응 스레드 형성. "공식 체인지로그보다 Reddit이 더 빠르다".</li>
+          </ul>
+        </div>
+
+        <div class="platform-card">
+          <div class="platform-header">
+            <div class="platform-icon hn">Y</div>
+            <div>
+              <div class="platform-name">Hacker News</div>
+              <div class="platform-sub">Show HN · 보안 · 인프라</div>
+            </div>
+          </div>
+          <ul>
+            <li><strong>Show HN: Moltty</strong><br>"지속 가능한(persistent) AI 코딩 세션"을 표방하는 도구. 에이전트 메모리·컨텍스트 유지 UX가 핵심 토픽.</li>
+            <li><strong>Show HN: Automated Testing for AI Agents</strong><br>에이전트 QA/평가 레이어. "에이전트가 진짜로 일을 했는지" 검증이 차기 카테고리로 떠오름.</li>
+            <li><strong>MCP 아키텍처 "by design" 취약점</strong><br>Model Context Protocol에서 RCE 가능성이 있는 설계적 허점이 보안 연구자들에 의해 공개 — 내부 도입 시 별도 격리 필요.</li>
+            <li><strong>"Slopsquatting"</strong><br>AI 할루시네이션이 만들어내는 존재하지 않는 패키지명을 선점해 배포하는 새로운 공급망 공격. HN 프런트 장기 점유.</li>
+            <li><strong>"AI 코드는 인간보다 4× 더 중복을 만든다"</strong><br>정량 분석 포스트가 크게 소비되며 "생산성 vs 코드베이스 건강도" 논쟁 점화.</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <h3 style="margin-top:32px;">📈 주목받는 오픈소스 에이전트 (GitHub 스타 기준)</h3>
+      <ul class="clean">
+        <li><strong>Hermes Agent</strong> (Nous Research) — 2/25 공개, 6주만에 <strong>57,200+ 스타</strong>, 80+ 에코시스템 프로젝트. 세션 간 메모리·스킬 학습이 강점.</li>
+        <li><strong>OpenClaw</strong> — 일일 다운로드 <strong>약 50만 건</strong>, 22개 채널 통합, 5,700+ 스킬 마켓플레이스. 팀 운영용 에이전트의 표준을 노림.</li>
+        <li><strong>ByteDance 에이전트</strong> — 2월 GitHub Trending 1위, <strong>25k+ 스타</strong>. 로컬 추론 + 멀티모달 워크플로우.</li>
+        <li><strong>Google 오픈소스 터미널 에이전트</strong> — 4월 공개, ReAct 루프 + MCP 지원 + 1M 컨텍스트 + Apache 2.0. Claude Code에 대한 오픈소스 응답.</li>
+      </ul>
 
       <h3 style="margin-top:32px;">🧠 개발자 커뮤니티가 주목하는 구조적 변화</h3>
       <ul class="clean">

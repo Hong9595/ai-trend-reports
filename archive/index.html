@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 트렌드 리포트 아카이브</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --surface: #171a21;
+    --surface-2: #1f242d;
+    --accent: #7c9cff;
+    --accent-2: #9d7bff;
+    --text: #e8ecf4;
+    --muted: #9aa4b2;
+    --border: #272d38;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Malgun Gothic", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 28px 80px;
+  }
+  header.hero {
+    padding: 36px 30px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, rgba(124,156,255,0.18), rgba(157,123,255,0.12));
+    border: 1px solid var(--border);
+    margin-bottom: 28px;
+  }
+  .eyebrow {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  h1 {
+    font-size: 26px;
+    margin: 0 0 8px;
+    letter-spacing: -0.02em;
+  }
+  .sub { color: var(--muted); margin: 0; font-size: 14px; }
+  ul.archive-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+  }
+  ul.archive-list li {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 10px;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+  }
+  ul.archive-list li:hover { transform: translateY(-2px); border-color: var(--accent); }
+  ul.archive-list a {
+    color: var(--text);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul.archive-list a:hover { color: var(--accent); }
+  .date { font-weight: 600; }
+  .arrow { color: var(--accent); }
+  .home-link {
+    display: inline-block;
+    margin-top: 24px;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .home-link:hover { color: var(--accent-2); }
+  footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 13px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="eyebrow">Archive</div>
+      <h1>AI 트렌드 리포트 아카이브</h1>
+      <p class="sub">날짜별 일간/주간 AI 트렌드 리포트 모음 (최신순)</p>
+    </header>
+
+    <ul class="archive-list">
+      <li><a href="./2026-04-22.html"><span class="date">2026-04-22</span><span class="arrow">→</span></a></li>
+      <li><a href="./2026-04-21.html"><span class="date">2026-04-21</span><span class="arrow">→</span></a></li>
+    </ul>
+
+    <a class="home-link" href="../">← 최신 리포트로 돌아가기</a>
+
+    <footer>
+      ⓒ 2026 AI Trend Report
+    </footer>
+  </div>
+</body>
+</html>

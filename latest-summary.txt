@@ -1,19 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.04.21 (테스트 발송)
+🤖 *오늘의 AI 트렌드 요약* — 2026.04.22
 
-핵심 흐름: "모델 경쟁 → 에이전트 인프라 경쟁"으로 축이 이동
+핵심 흐름: 에이전트 경쟁이 모델·클라우드를 넘어 "OS(작업 표시줄)"까지 올라옴
 
 🔑 *핫 키워드*
-• 에이전틱 AI / 추론형 LLM
-• 에이전트 인프라 (Cloudflare Agent Cloud, General Compute)
-• Claude Opus 4.7 (4/16 출시) — 개발자 선호도 78%
-• Hermes Agent — 6주만에 57k GitHub 스타
-• 보안 특화 모델 (OpenAI GPT-5.4-Cyber, Anthropic Mythos)
+• OS 레벨 에이전트 (Windows 11 + MCP)
+• Claude Opus 4.7 전면 GA + Task Budget
+• Agent Governance Toolkit (0.1ms 차단)
+• MIT TR "지금 중요한 AI 10가지"
+• Gemma 4 (Apache 2.0, 256K, 140언어)
 
 📰 *주요 기사 3선*
-1. OpenAI, GPT-5.4-Cyber 제한 공개 (Bloomberg)
-2. Cloudflare Agent Cloud 확장 (MindWiredAI)
-3. Anthropic Claude Design 출시
+1. Microsoft, Windows 11 작업 표시줄에 써드파티 AI 에이전트 공식 허용 (Windows Latest / Pureinfotech)
+2. Claude Opus 4.7, Task Budget 탑재하고 전 클라우드 GA 완료 (Anthropic · AWS)
+3. MIT Technology Review, "지금 가장 중요한 AI 10가지" 첫 공개 (MIT Tech Review · EmTech AI)
 
-⚠️ *경고* — Flowise AI Agent Builder CVSS 10.0 RCE 취약점. 사내 배포 전 점검 필수.
+💡 *시사점*
+모델 성능 경쟁은 평준화되고, 경쟁 축은 "에이전트가 어디에 붙느냐(OS·브라우저·IDE)"와 "얼마나 끝까지 끝내느냐(Task Budget·완주율)"로 이동 중. 기업은 MCP 지원 여부 확인 + 에이전트 허용 목록·감사 정책을 이번 분기 안에 준비해야 함.
 
 🔗 풀 리포트 보기 👇

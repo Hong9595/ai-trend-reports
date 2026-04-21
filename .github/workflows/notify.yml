@@ -1,0 +1,65 @@
+name: Notify Telegram on new report
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'latest-summary.txt'
+      - 'archive/**'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build Telegram message
+        id: build
+        run: |
+          # Read the summary file; fall back to a default if missing
+          if [[ -f latest-summary.txt ]]; then
+            SUMMARY=$(cat latest-summary.txt)
+          else
+            SUMMARY="🤖 새 AI 트렌드 리포트가 발행되었습니다."
+          fi
+
+          # Append the live Pages URL + dated archive link
+          REPO="${GITHUB_REPOSITORY}"
+          OWNER="${GITHUB_REPOSITORY_OWNER}"
+          NAME="${REPO#*/}"
+          TODAY=$(date -u -d '+9 hours' +%Y-%m-%d)   # KST date
+          LIVE_URL="https://${OWNER,,}.github.io/${NAME}/"
+          ARCHIVE_URL="https://${OWNER,,}.github.io/${NAME}/archive/${TODAY}.html"
+
+          MSG="${SUMMARY}
+          📄 최신: ${LIVE_URL}
+          🗂 오늘 아카이브: ${ARCHIVE_URL}"
+
+          # Escape for JSON
+          {
+            echo 'msg<<EOF'
+            echo "$MSG"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Send Telegram message
+        env:
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MSG: ${{ steps.build.outputs.msg }}
+        run: |
+          if [[ -z "$BOT_TOKEN" || -z "$CHAT_ID" ]]; then
+            echo "::error::TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID secret is missing."
+            exit 1
+          fi
+
+          curl -sS --fail -X POST \
+            "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${CHAT_ID}" \
+            -d "parse_mode=Markdown" \
+            -d "disable_web_page_preview=false" \
+            --data-urlencode "text=${MSG}"
+
+          echo "Telegram notification sent."

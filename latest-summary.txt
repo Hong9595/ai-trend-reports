@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.04.22
+🤖 *오늘의 AI 트렌드 요약* — 2026.04.23
 
-핵심 흐름: "The agentic cloud" — 하이퍼스케일러 3사 포지셔닝 분화, 보안은 모델 자체로, 컨트롤 플레인은 양자까지
+핵심 흐름: 엔터프라이즈 AI가 "모델"에서 "에이전트 플랫폼"으로 공식 이동, 그리고 처음으로 "AI 감원"이 빅테크 실적 가이던스에 등장
 
 🔑 *핫 키워드*
-• Google Cloud Next 2026 "The agentic cloud" 키노트
-• OpenAI GPT-5.4-Cyber + Codex Security 3,000+ 패치
-• NVIDIA Ising — AI가 양자 컴퓨터의 OS
-• Claude $20 뷔페 종료 → 토큰당 과금 전환
-• MCP 9,700만 설치 — 에이전트 표준 확정
+• Gemini Enterprise Agent Platform (Agent Designer · Inbox · Skills)
+• TPU v8 이원화 — Sunfish(훈련) / Zebrafish(추론)
+• $750M 파트너 펀드 + Deloitte Agentic Practice
+• OpenAI Workspace Agents (팀 단위 Codex 공유 에이전트)
+• A2A 프로토콜 — 에이전트 간 대화 표준
 
 📰 *주요 기사 3선*
-1. Google Cloud Next 2026 개막 — "The agentic cloud" 키노트로 Gemini를 에이전트 런타임으로 재정의 (SiliconANGLE · Fortune)
-2. OpenAI, 인증된 방어자 전용 GPT-5.4-Cyber 공개, Codex Security는 이미 3,000+ 취약점 패치 (The Hacker News · Axios)
-3. NVIDIA Ising 공개 — AI가 "양자 컴퓨터의 운영체제"가 되다 (NVIDIA · The Quantum Insider · CNBC)
+1. Google Cloud Next 2026 Day 2 — Gemini Enterprise + TPU v8 공개 (Axios)
+2. Deloitte, Gemini Enterprise 전속 "Agentic Transformation Practice" 출범 (Google Cloud Press)
+3. Snap 1,000명 해고 — "신규 코드의 65%는 이미 AI가 작성" (CNBC · TechCrunch)
 
 💡 *시사점*
-에이전트 경쟁은 모델이 아니라 "런타임 · 경제성 · 보안 · 하드웨어 컨트롤"로 축이 분화 중. 기업은 (1) Gemini Enterprise vs Bedrock vs Foundry 비교표 업데이트, (2) 토큰당 과금 기반 에이전트 TCO 모델 구축, (3) GPT-5.4-Cyber / Codex Security 계열 PoC를 이번 분기 안에 시작할 것.
+엔터프라이즈 AI의 경쟁 단위가 벤치마크에서 "에이전트 플랫폼 + 반도체 + 파트너 생태계"의 풀스택으로 옮겨갔고, "AI 감원"이 드디어 실적 가이던스 언어로 진입했습니다. 2H26 CIO의 KPI는 모델 성능이 아니라 "에이전트 가동률"입니다.
 
 🔗 풀 리포트 보기 👇

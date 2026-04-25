@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<\!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
@@ -8,7 +8,6 @@
   :root {
     --bg: #0f1115;
     --surface: #171a21;
-    --surface-2: #1f242d;
     --accent: #7c9cff;
     --accent-2: #9d7bff;
     --text: #e8ecf4;
@@ -24,7 +23,7 @@
     line-height: 1.7;
   }
   .container {
-    max-width: 720px;
+    max-width: 760px;
     margin: 0 auto;
     padding: 48px 28px 80px;
   }
@@ -44,16 +43,12 @@
     margin-bottom: 8px;
     font-weight: 600;
   }
-  h1 {
-    font-size: 26px;
-    margin: 0 0 8px;
-    letter-spacing: -0.02em;
-  }
-  .sub { color: var(--muted); margin: 0; font-size: 14px; }
+  h1 { font-size: 26px; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .sub { color: var(--muted); font-size: 14px; margin: 0; }
   ul.archive-list {
     list-style: none;
     padding: 0;
-    margin: 20px 0 0;
+    margin: 16px 0 0;
   }
   ul.archive-list li {
     background: var(--surface);
@@ -61,34 +56,37 @@
     border-radius: 12px;
     padding: 16px 20px;
     margin-bottom: 10px;
-    transition: transform 0.15s ease, border-color 0.15s ease;
+    transition: border-color 0.15s ease, transform 0.15s ease;
   }
-  ul.archive-list li:hover { transform: translateY(-2px); border-color: var(--accent); }
+  ul.archive-list li:hover {
+    border-color: var(--accent);
+    transform: translateY(-1px);
+  }
   ul.archive-list a {
     color: var(--text);
     text-decoration: none;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
   }
-  ul.archive-list a:hover { color: var(--accent); }
-  .date { font-weight: 600; }
-  .arrow { color: var(--accent); }
-  .home-link {
-    display: inline-block;
-    margin-top: 24px;
-    color: var(--accent);
-    text-decoration: none;
-    font-size: 14px;
-  }
-  .home-link:hover { color: var(--accent-2); }
+  ul.archive-list .date { color: var(--accent); font-weight: 600; }
+  ul.archive-list .arrow { color: var(--muted); font-size: 16px; }
   footer {
-    margin-top: 40px;
-    padding-top: 20px;
+    margin-top: 36px;
+    padding-top: 18px;
     border-top: 1px solid var(--border);
     color: var(--muted);
-    font-size: 13px;
+    font-size: 12px;
     text-align: center;
+  }
+  a.home {
+    display: inline-block;
+    margin-top: 16px;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 13px;
+    border-bottom: 1px dashed rgba(124,156,255,0.5);
   }
 </style>
 </head>
@@ -97,20 +95,16 @@
     <header class="hero">
       <div class="eyebrow">Archive</div>
       <h1>AI 트렌드 리포트 아카이브</h1>
-      <p class="sub">날짜별 일간/주간 AI 트렌드 리포트 모음 (최신순)</p>
+      <p class="sub">매일 발행되는 AI 산업 동향 보고서를 날짜순으로 모았습니다.</p>
+      <a class="home" href="../">← 최신 리포트로</a>
     </header>
-
     <ul class="archive-list">
-      <li><a href="./2026-04-23.html"><span class="date">2026-04-23</span><span class="arrow">→</span></a></li>
-      <li><a href="./2026-04-22.html"><span class="date">2026-04-22</span><span class="arrow">→</span></a></li>
-      <li><a href="./2026-04-21.html"><span class="date">2026-04-21</span><span class="arrow">→</span></a></li>
+      <li><a href="2026-04-25.html"><span class="date">📅 2026-04-25</span><span class="arrow">→</span></a></li>
+      <li><a href="2026-04-23.html"><span class="date">📅 2026-04-23</span><span class="arrow">→</span></a></li>
+      <li><a href="2026-04-22.html"><span class="date">📅 2026-04-22</span><span class="arrow">→</span></a></li>
+      <li><a href="2026-04-21.html"><span class="date">📅 2026-04-21</span><span class="arrow">→</span></a></li>
     </ul>
-
-    <a class="home-link" href="../">← 최신 리포트로 돌아가기</a>
-
-    <footer>
-      ⓒ 2026 AI Trend Report
-    </footer>
+    <footer>ⓒ 2026 Daily AI Trend Report</footer>
   </div>
 </body>
 </html>

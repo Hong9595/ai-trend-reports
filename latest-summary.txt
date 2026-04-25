@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.04.23
+🤖 *오늘의 AI 트렌드 요약* — 2026.04.25
 
-핵심 흐름: 엔터프라이즈 AI가 "모델"에서 "에이전트 플랫폼"으로 공식 이동, 그리고 처음으로 "AI 감원"이 빅테크 실적 가이던스에 등장
+핵심 흐름: GPT-5.5 출시·Google의 Anthropic $40B 베팅·Mythos Preview 공개로 모델 빅뱅 한 주 마감.
 
 🔑 *핫 키워드*
-• Gemini Enterprise Agent Platform (Agent Designer · Inbox · Skills)
-• TPU v8 이원화 — Sunfish(훈련) / Zebrafish(추론)
-• $750M 파트너 펀드 + Deloitte Agentic Practice
-• OpenAI Workspace Agents (팀 단위 Codex 공유 에이전트)
-• A2A 프로토콜 — 에이전트 간 대화 표준
+• GPT-5.5 "Spud" (FrontierMath 39.6%)
+• Google × Anthropic $40B 투자
+• Claude Mythos Preview (SWE-bench 93.9%)
+• Anthropic ARR $30B 돌파
+• Claude Code 사과 + 사용량 리셋
 
 📰 *주요 기사 3선*
-1. Google Cloud Next 2026 Day 2 — Gemini Enterprise + TPU v8 공개 (Axios)
-2. Deloitte, Gemini Enterprise 전속 "Agentic Transformation Practice" 출범 (Google Cloud Press)
-3. Snap 1,000명 해고 — "신규 코드의 65%는 이미 AI가 작성" (CNBC · TechCrunch)
+1. OpenAI GPT-5.5 "Spud" 출시, 24일 API GA — FrontierMath 39.6% (OpenAI/CNBC)
+2. Google, Anthropic에 최대 $40B 추가 투자 ($10B 즉시·$30B 마일스톤) (Bloomberg/CNBC)
+3. Anthropic, Claude Code 성능 저하 3건 공식 인정 + Mythos Preview 공개 (Fortune)
 
 💡 *시사점*
-엔터프라이즈 AI의 경쟁 단위가 벤치마크에서 "에이전트 플랫폼 + 반도체 + 파트너 생태계"의 풀스택으로 옮겨갔고, "AI 감원"이 드디어 실적 가이던스 언어로 진입했습니다. 2H26 CIO의 KPI는 모델 성능이 아니라 "에이전트 가동률"입니다.
+모델 경쟁은 "수학·범용성=OpenAI / 코드·보안=Anthropic"의 분업으로 굳어졌고, 토큰 단가 2배 인상에 대응할 라우팅·캐시·task budget의 3중 FinOps가 사실상 강제됐습니다.
 
 🔗 풀 리포트 보기 👇

@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.04.25
+🤖 *오늘의 AI 트렌드 요약* — 2026.04.27
 
-핵심 흐름: GPT-5.5 출시·Google의 Anthropic $40B 베팅·Mythos Preview 공개로 모델 빅뱅 한 주 마감.
+핵심 흐름: 이번 주말은 모델이 아니라 "에이전트의 운영 OS"가 한꺼번에 깔린 주말 — 빌드·통신·보안·결제 표준이 동시 정착.
 
 🔑 *핫 키워드*
-• GPT-5.5 "Spud" (FrontierMath 39.6%)
-• Google × Anthropic $40B 투자
-• Claude Mythos Preview (SWE-bench 93.9%)
-• Anthropic ARR $30B 돌파
-• Claude Code 사과 + 사용량 리셋
+• Google Workspace Studio (全 도메인 GA, 알파 30일 2,000만 자동화)
+• A2A 프로토콜 150개 조직 (멀티 벤더 에이전트 통신 표준)
+• MS Agent Governance Toolkit + Cloudflare Mesh (에이전트 보안)
+• Visa Intelligent Commerce Connect (자율 결제 표준)
+• ICLR 2026 + Google TurboQuant (KV 캐시 비용 곡선 추가 하락)
 
 📰 *주요 기사 3선*
-1. OpenAI GPT-5.5 "Spud" 출시, 24일 API GA — FrontierMath 39.6% (OpenAI/CNBC)
-2. Google, Anthropic에 최대 $40B 추가 투자 ($10B 즉시·$30B 마일스톤) (Bloomberg/CNBC)
-3. Anthropic, Claude Code 성능 저하 3건 공식 인정 + Mythos Preview 공개 (Fortune)
+1. Google, Cloud Next 2026 에이전트 풀스택 — Workspace Studio 全 도메인 + A2A 150개 조직 (Google Workspace Blog)
+2. MS Agent Governance Toolkit + Cloudflare Mesh — "에이전트 보안" 표준 카테고리화 (Microsoft / Cloudflare)
+3. Visa ICC + Yelp 액션 에이전트 — 자율 결제가 표준 인프라로 합류 (Visa / Yelp)
 
 💡 *시사점*
-모델 경쟁은 "수학·범용성=OpenAI / 코드·보안=Anthropic"의 분업으로 굳어졌고, 토큰 단가 2배 인상에 대응할 라우팅·캐시·task budget의 3중 FinOps가 사실상 강제됐습니다.
+2026년 2분기는 "에이전트가 인프라가 되는 분기"입니다. 모델·통신·보안·결제 표준이 같은 주에 정착되며, 거버넌스가 모델 성능보다 우선하는 RFP 시대가 열렸습니다.
 
 🔗 풀 리포트 보기 👇

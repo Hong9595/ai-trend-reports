@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.04.28
+🤖 *오늘의 AI 트렌드 요약* — 2026.04.30
 
-핵심 흐름: Google의 Anthropic 400억 달러 베팅·GPT-6 출시·Claude Mythos 한정 공개로 LLM 플래그십 전쟁이 새 국면에 진입
+핵심 흐름: GPT-5.5·Claude Opus 4.7·DeepSeek V4 3파전 속 Google $40B Anthropic 투자로 컴퓨트 동맹 시대 개막, OpenAI는 Q1 매출 목표 미달
 
 🔑 *핫 키워드*
-• GPT-6 (System-1/2 투 티어 추론, 할루시네이션 0.1% 미만)
-• Google → Anthropic $40B (TPU 5GW 컴퓨트 포함)
-• Claude Mythos (50개 파트너 한정, 사이버보안 특화)
-• Gemma 4 오픈소스 (Apache 2.0, 256K 컨텍스트)
-• 중국 오픈소스 역전 (Kimi K2.6 OpenRouter 실시간 1위)
+• GPT-5.5 vs Claude Opus 4.7 vs DeepSeek V4 (프런티어 모델 3파전)
+• Google $40B → Anthropic (TPU 5GW 컴퓨트 동맹)
+• OpenAI Q1 매출 미달 (엔터프라이즈 점유율 50%→27%)
+• MCP 9,700만 설치 (에이전트 인프라 표준 확립)
+• AI 에이전트 생산화 (Stanford: 성공률 12%→66%)
 
 📰 *주요 기사 3선*
-1. Google, Anthropic에 최대 400억 달러 투자 확정 — AI 역대 단일 최대 딜 (TechCrunch)
-2. GPT-6 공식 출시 + Claude Mythos 한정 공개 — LLM 플래그십 경쟁 새 기준 (WhatLLM)
-3. 엔터프라이즈 AI 에이전트 급확산 — 40% 목표 vs 10% 현실의 거버넌스 간극 (FifthRow)
+1. Google, Anthropic에 최대 400억 달러 투자 — TPU 5GW 컴퓨트 동맹 포함 (TechCrunch)
+2. GPT-5.5 vs Claude Opus 4.7 vs DeepSeek V4 — 세 가지 다른 AI 미래 (VentureBeat)
+3. OpenAI, Q1 매출 목표 미달 — 연 250억 달러 지출 속 수익화 압박 (WinBuzzer)
 
 💡 *시사점*
-AI 벤더 선택이 클라우드 인프라 동맹 선택과 동일해지는 시대 진입. 오픈소스 AI가 프로프라이어터리의 실질적 대안으로 부상하며 모델 선택 전략의 전면 재검토가 필요한 시점.
+AI 벤더 선택이 곧 클라우드 선택이 되는 시대입니다. MCP 기반 멀티모델 라우팅이 표준 아키텍처로 부상하는 가운데, 에이전트 스케일의 핵심 장벽은 기술이 아닌 거버넌스입니다.
 
 🔗 풀 리포트 보기 👇

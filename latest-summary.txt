@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.04.30
+🤖 *오늘의 AI 트렌드 요약* — 2026.05.03
 
-핵심 흐름: GPT-5.5·Claude Opus 4.7·DeepSeek V4 3파전 속 Google $40B Anthropic 투자로 컴퓨트 동맹 시대 개막, OpenAI는 Q1 매출 목표 미달
+핵심 흐름: 국방부 AI 계약 파장(Anthropic 단독 제외), Gemma 4 오픈소스 혁명, 에이전트 로컬 우선 전환 가속
 
 🔑 *핫 키워드*
-• GPT-5.5 vs Claude Opus 4.7 vs DeepSeek V4 (프런티어 모델 3파전)
-• Google $40B → Anthropic (TPU 5GW 컴퓨트 동맹)
-• OpenAI Q1 매출 미달 (엔터프라이즈 점유율 50%→27%)
-• MCP 9,700만 설치 (에이전트 인프라 표준 확립)
-• AI 에이전트 생산화 (Stanford: 성공률 12%→66%)
+• Pentagon AI 계약 — Anthropic 배제, 안전 원칙 vs. 비즈니스 충돌
+• Google Gemma 4 Apache 2.0 — 31B로 13배 큰 모델 압도
+• Local-First AI Agent — 클라우드 탈피, 비용 90% 절감 사례
+• GPT-5.5 전면 배포 — MCP·컴퓨터 사용 내장, 슈퍼앱 전략 가속
+• AI 에이전트 자율 법인 설립 — 에이전트 경제 시대 선언
 
 📰 *주요 기사 3선*
-1. Google, Anthropic에 최대 400억 달러 투자 — TPU 5GW 컴퓨트 동맹 포함 (TechCrunch)
-2. GPT-5.5 vs Claude Opus 4.7 vs DeepSeek V4 — 세 가지 다른 AI 미래 (VentureBeat)
-3. OpenAI, Q1 매출 목표 미달 — 연 250억 달러 지출 속 수익화 압박 (WinBuzzer)
+1. 미 국방부, 7개 빅테크와 기밀 AI 계약 — Anthropic만 단독 제외 (CNN Business)
+2. Google Gemma 4 공개 — Apache 2.0, AIME 89.2% 달성, 오픈소스 최강 (Google Blog)
+3. AI 에이전트 로컬 우선 패러다임 부상 — n8n·Gemma 4 조합으로 클라우드 비용 혁신 (BrightCoding)
 
 💡 *시사점*
-AI 벤더 선택이 곧 클라우드 선택이 되는 시대입니다. MCP 기반 멀티모델 라우팅이 표준 아키텍처로 부상하는 가운데, 에이전트 스케일의 핵심 장벽은 기술이 아닌 거버넌스입니다.
+AI 공급사의 윤리 정책이 실제 계약 기회를 좌우하는 시대가 됐습니다. 오픈소스 AI가 프런티어 수준에 도달하면서, 데이터 주권과 비용 효율을 동시에 잡는 로컬 우선 에이전트 아키텍처가 2026년 하반기 기업 AI 전략의 핵심 의제로 부상할 것입니다.
 
 🔗 풀 리포트 보기 👇

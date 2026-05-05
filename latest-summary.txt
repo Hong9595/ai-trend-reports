@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.05.04
+🤖 *오늘의 AI 트렌드 요약* — 2026.05.05
 
-핵심 흐름: Claude Opus 4.7 출시·Claude Security 베타·Google $40B 투자 확정으로 Anthropic-Google 동맹이 AI 판도 재편
+핵심 흐름: 미 국방부 Anthropic 배제 AI 계약·AI 사이버 공격 89% 급증·Gemma 4 오픈소스 강세로 AI 정치·보안·생태계 삼중 재편
 
 🔑 *핫 키워드*
-• Claude Opus 4.7 — 코딩·비전 대폭 강화, 전 플랫폼 동시 출시
-• Claude Security — Opus 4.7 기반 리포지토리 자율 보안 스캔 베타
-• Google→Anthropic $40B — $350B 밸류, TPU 5GW 공급 확정
-• Meta Muse Spark — 수퍼인텔리전스 랩 첫 플래그십 LLM 공개
-• Agentic AI 원년 — 에이전트 성공률 66%, 기업 40% 도입 달성
+• Pentagon AI 계약 — Anthropic 배제, 자율 무기 거부가 발단
+• Agentforce Operations — Salesforce 백오피스 에이전트 자동화 출시
+• AI 사이버 공격 89%↑ — CrowdStrike 글로벌 위협 리포트
+• Google Gemma 4 — 31B 오픈소스가 400B 라이벌 성능 달성
+• LLM 거품 붕괴론 — 소형 전문 에이전트 플릿으로 패러다임 전환
 
 📰 *주요 기사 3선*
-1. Anthropic Claude Opus 4.7 전면 출시 + Claude Security 베타 공개 (Anthropic/Releasebot)
-2. Google, Anthropic에 최대 $40B 투자·TPU 5GW 공급 최종 확정 (TechCrunch)
-3. 2026 에이전틱 AI 임계점 — 성공률 66%, 시장 $9B 돌파, 실패 77%는 거버넌스 (Gartner/Stanford)
+1. 미 국방부, OpenAI·Google 등 7개사 기밀망 AI 계약 체결 — Anthropic 공식 배제 (CNN/Defense News)
+2. Salesforce Agentforce Operations 출시 — 레거시 워크플로우를 에이전트 태스크로 분해 (VentureBeat)
+3. 2026 AI 지원 공격의 해 — CrowdStrike "AI 적대 세력 공격 89% 급증" (The Hacker News)
 
 💡 *시사점*
-Anthropic은 국방 배제를 민간 보안 특화로 전환하고, Google과의 동맹으로 Microsoft-OpenAI 구도에 맞섰습니다. 에이전트 도입 실패의 77%가 기술이 아닌 조직 거버넌스 문제라는 점이 올해 AI 전략의 핵심 과제입니다.
+AI 윤리 정책이 수백억 달러 계약을 결정짓는 변수가 됐고, AI 확산만큼 AI 공격도 빨라지고 있습니다. 에이전트 자동화 성공의 열쇠는 기술보다 제어 가능한 거버넌스 설계에 있습니다.
 
 🔗 풀 리포트 보기 👇

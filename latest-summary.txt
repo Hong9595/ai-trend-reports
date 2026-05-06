@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.05.05
+🤖 *오늘의 AI 트렌드 요약* — 2026.05.06
 
-핵심 흐름: 미 국방부 Anthropic 배제 AI 계약·AI 사이버 공격 89% 급증·Gemma 4 오픈소스 강세로 AI 정치·보안·생태계 삼중 재편
+핵심 흐름: 모델 성능 경쟁 고원화, Anthropic 매출 1위 & AI 에이전트 프로덕션화 본격화
 
 🔑 *핫 키워드*
-• Pentagon AI 계약 — Anthropic 배제, 자율 무기 거부가 발단
-• Agentforce Operations — Salesforce 백오피스 에이전트 자동화 출시
-• AI 사이버 공격 89%↑ — CrowdStrike 글로벌 위협 리포트
-• Google Gemma 4 — 31B 오픈소스가 400B 라이벌 성능 달성
-• LLM 거품 붕괴론 — 소형 전문 에이전트 플릿으로 패러다임 전환
+• GPT-5.5 vs Grok 4.3 동시 출격
+• Anthropic Q1 매출 점유율 1위 (31.4%)
+• 프로덕션 AI 에이전트 & MCP 1만 서버
+• Stanford AI Index 2026 (채택률 53%)
+• 국내 AI 에이전트 결제·커머스 확산
 
 📰 *주요 기사 3선*
-1. 미 국방부, OpenAI·Google 등 7개사 기밀망 AI 계약 체결 — Anthropic 공식 배제 (CNN/Defense News)
-2. Salesforce Agentforce Operations 출시 — 레거시 워크플로우를 에이전트 태스크로 분해 (VentureBeat)
-3. 2026 AI 지원 공격의 해 — CrowdStrike "AI 적대 세력 공격 89% 급증" (The Hacker News)
+1. OpenAI GPT-5.5 & xAI Grok 4.3 나란히 출격 — 플래그십 대전 재점화 (TechCrunch)
+2. Anthropic, Q1 LLM 매출 세계 1위 — ARPU $16.20로 경쟁사 압도 (The Register)
+3. Stanford AI Index 2026 — AI 채택 53% 돌파, 투명성 지수는 급락 (Stanford HAI)
 
 💡 *시사점*
-AI 윤리 정책이 수백억 달러 계약을 결정짓는 변수가 됐고, AI 확산만큼 AI 공격도 빨라지고 있습니다. 에이전트 자동화 성공의 열쇠는 기술보다 제어 가능한 거버넌스 설계에 있습니다.
+모델 간 성능 격차가 좁아지며 기업의 관심은 "어떤 모델이 더 스마트한가"에서 "어떤 모델이 우리 워크플로에 맞는가"로 이동 중. Anthropic 매출 1위는 엔터프라이즈 집중 전략의 유효성을 입증했고, Stanford 보고서는 투명성·안전성 거버넌스의 시급함을 경고.
 
 🔗 풀 리포트 보기 👇

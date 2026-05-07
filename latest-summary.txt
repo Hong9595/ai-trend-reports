@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.05.06
+🤖 *오늘의 AI 트렌드 요약* — 2026.05.07
 
-핵심 흐름: 모델 성능 경쟁 고원화, Anthropic 매출 1위 & AI 에이전트 프로덕션화 본격화
+핵심 흐름: 사이버보안·신뢰성 강화가 AI 경쟁의 새 전선으로 부상, 에이전트 기업 도입 40% 돌파
 
 🔑 *핫 키워드*
-• GPT-5.5 vs Grok 4.3 동시 출격
-• Anthropic Q1 매출 점유율 1위 (31.4%)
-• 프로덕션 AI 에이전트 & MCP 1만 서버
-• Stanford AI Index 2026 (채택률 53%)
-• 국내 AI 에이전트 결제·커머스 확산
+• Claude Mythos & Project Glasswing (사이버보안 AI)
+• GPT-5.5 Instant 기본 모델화 (할루시네이션 52.5%↓)
+• DeepMind AlphaEvolve (LLM + 진화 알고리즘)
+• AI 에이전트 기업 도입 40% 돌파
+• 에이전트 슈퍼바이저 신직군 등장
 
 📰 *주요 기사 3선*
-1. OpenAI GPT-5.5 & xAI Grok 4.3 나란히 출격 — 플래그십 대전 재점화 (TechCrunch)
-2. Anthropic, Q1 LLM 매출 세계 1위 — ARPU $16.20로 경쟁사 압도 (The Register)
-3. Stanford AI Index 2026 — AI 채택 53% 돌파, 투명성 지수는 급락 (Stanford HAI)
+1. Anthropic, Claude Mythos Preview 공개 — 제로데이 취약점 자율 탐지·Project Glasswing 출범 (Anthropic)
+2. OpenAI, GPT-5.5 Instant ChatGPT 기본 모델 전환 — 할루시네이션 52.5% 감소·메모리 투명성 강화 (TechCrunch)
+3. Google DeepMind, AlphaEvolve 발표 — Gemini+진화 알고리즘으로 미해결 과학 문제 해결 (DeepMind)
 
 💡 *시사점*
-모델 간 성능 격차가 좁아지며 기업의 관심은 "어떤 모델이 더 스마트한가"에서 "어떤 모델이 우리 워크플로에 맞는가"로 이동 중. Anthropic 매출 1위는 엔터프라이즈 집중 전략의 유효성을 입증했고, Stanford 보고서는 투명성·안전성 거버넌스의 시급함을 경고.
+AI 경쟁의 축이 모델 성능에서 신뢰·안전·거버넌스로 이동 중. 에이전트가 기업 핵심 인프라로 정착하면서 이를 관리·감독하는 새 직군과 규제 체계가 동시에 부상하고 있음.
 
 🔗 풀 리포트 보기 👇

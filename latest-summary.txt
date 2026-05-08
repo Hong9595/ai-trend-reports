@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.05.07
+🤖 *오늘의 AI 트렌드 요약* — 2026.05.08
 
-핵심 흐름: 사이버보안·신뢰성 강화가 AI 경쟁의 새 전선으로 부상, 에이전트 기업 도입 40% 돌파
+핵심 흐름: 에이전트 플랫폼 3파전 & AI 안전 거버넌스 제도화 — 모델 경쟁에서 인프라·규제 경쟁으로 전환
 
 🔑 *핫 키워드*
-• Claude Mythos & Project Glasswing (사이버보안 AI)
-• GPT-5.5 Instant 기본 모델화 (할루시네이션 52.5%↓)
-• DeepMind AlphaEvolve (LLM + 진화 알고리즘)
-• AI 에이전트 기업 도입 40% 돌파
-• 에이전트 슈퍼바이저 신직군 등장
+• Claude Mythos Preview (사이버보안 특화 모델)
+• 멀티 에이전트 오케스트레이션
+• AI 사전 안전 테스트 (미 정부 CAISI)
+• AlphaEvolve · LLM 효율화
+• 업스테이지 × 다음 인수
 
 📰 *주요 기사 3선*
-1. Anthropic, Claude Mythos Preview 공개 — 제로데이 취약점 자율 탐지·Project Glasswing 출범 (Anthropic)
-2. OpenAI, GPT-5.5 Instant ChatGPT 기본 모델 전환 — 할루시네이션 52.5% 감소·메모리 투명성 강화 (TechCrunch)
-3. Google DeepMind, AlphaEvolve 발표 — Gemini+진화 알고리즘으로 미해결 과학 문제 해결 (DeepMind)
+1. 미 CAISI, 구글·MS·xAI와 AI 모델 출시 전 정부 평가 협약 체결 (CNBC)
+2. Microsoft Agent 365 GA · Google A2A v1.0 · IBM watsonx Orchestrate 에이전트 3파전 (The Next Web)
+3. 업스테이지, 카카오로부터 다음(AXZ) 인수 확정 — 한국형 AI 포털 전쟁 개막 (Aboda)
 
 💡 *시사점*
-AI 경쟁의 축이 모델 성능에서 신뢰·안전·거버넌스로 이동 중. 에이전트가 기업 핵심 인프라로 정착하면서 이를 관리·감독하는 새 직군과 규제 체계가 동시에 부상하고 있음.
+AI 산업이 '모델 성능 경쟁'에서 '에이전트 인프라·거버넌스 경쟁'으로 무게중심을 옮기고 있으며, 국내에서는 업스테이지-다음 연합이 네이버·구글 대항 세력으로 부상 중입니다.
 
 🔗 풀 리포트 보기 👇

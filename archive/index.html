@@ -5,42 +5,57 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI 트렌드 리포트 아카이브</title>
 <style>
-  :root { --bg:#0f1115; --surface:#171a21; --accent:#7c9cff; --text:#e8ecf4; --muted:#9aa4b2; --border:#272d38; }
+  :root {
+    --bg: #0f1115; --surface: #171a21; --accent: #7c9cff; --accent-2: #9d7bff;
+    --text: #e8ecf4; --muted: #9aa4b2; --border: #272d38;
+  }
   * { box-sizing: border-box; }
-  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Malgun Gothic",sans-serif; background:var(--bg); color:var(--text); }
-  .container { max-width:680px; margin:0 auto; padding:48px 28px 80px; }
-  h1 { font-size:26px; margin:0 0 8px; }
-  .sub { color:var(--muted); font-size:14px; margin-bottom:36px; }
-  .report-list { display:flex; flex-direction:column; gap:12px; }
-  .report-item { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px 20px; display:flex; justify-content:space-between; align-items:center; text-decoration:none; color:var(--text); transition:border-color 0.15s; }
-  .report-item:hover { border-color:var(--accent); }
-  .report-date { font-size:16px; font-weight:600; }
-  .report-label { font-size:12px; color:var(--muted); margin-top:2px; }
-  .arrow { color:var(--accent); font-size:18px; }
-  .back { display:inline-block; margin-bottom:28px; font-size:13px; color:var(--accent); text-decoration:none; }
-  .back:hover { text-decoration:underline; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Malgun Gothic", sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+  .container { max-width: 720px; margin: 0 auto; padding: 48px 28px 80px; }
+  header { padding: 32px 28px; border-radius: 16px; background: linear-gradient(135deg, rgba(124,156,255,0.15), rgba(157,123,255,0.10)); border: 1px solid var(--border); margin-bottom: 36px; }
+  .eyebrow { display: inline-block; font-size: 11px; letter-spacing: 1.4px; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; font-weight: 600; }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  .sub { color: var(--muted); font-size: 14px; margin: 0; }
+  .archive-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; }
+  .archive-list li a {
+    display: flex; align-items: center; justify-content: space-between;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 16px 22px; text-decoration: none; color: var(--text);
+    transition: border-color 0.2s;
+  }
+  .archive-list li a:hover { border-color: var(--accent); }
+  .date-label { font-weight: 700; font-size: 15px; }
+  .arrow { color: var(--accent); font-size: 18px; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 13px; color: var(--muted); }
+  footer a { color: var(--accent); text-decoration: none; }
 </style>
 </head>
 <body>
 <div class="container">
-  <a href="../index.html" class="back">← 최신 리포트로 돌아가기</a>
-  <h1>📁 AI 트렌드 리포트 아카이브</h1>
-  <p class="sub">날짜별 리포트 목록 (최신순)</p>
-  <div class="report-list">
-    <a href="2026-05-08.html" class="report-item"><div><div class="report-date">2026-05-08</div><div class="report-label">AI 트렌드 리포트</div></div><span class="arrow">→</span></a>
-    <a href="2026-05-07.html" class="report-item"><div><div class="report-date">2026-05-07</div><div class="report-label">AI 트렌드 리포트</div></div><span class="arrow">→</span></a>
-    <a href="2026-05-06.html" class="report-item"><div><div class="report-date">2026-05-06</div><div class="report-label">AI 트렌드 리포트</div></div><span class="arrow">→</span></a>
-    <a href="2026-05-05.html" class="report-item"><div><div class="report-date">2026-05-05</div><div class="report-label">AI 트렌드 리포트</div></div><span class="arrow">→</span></a>
-    <a href="2026-05-04.html" class="report-item"><div><div class="report-date">2026-05-04</div><div class="report-label">AI 트렌드 리포트</div></div><span class="arrow">→</span></a>
-    <a href="2026-05-03.html" class="report-item"><div><div class="report-date">2026-05-03</div><div class="report-label">AI 트렌드 리포트</div></div><span class="arrow">→</span></a>
-    <a href="2026-04-30.html" class="report-item"><div><div class="report-date">2026-04-30</div><div class="report-label">AI 트렌드 리포트</div></div><span class="arrow">→</span></a>
-    <a href="2026-04-28.html" class="report-item"><div><div class="report-date">2026-04-28</div><div class="report-label">AI 트렌드 리포트</div></div><span class="arrow">→</span></a>
-    <a href="2026-04-27.html" class="report-item"><div><div class="report-date">2026-04-27</div><div class="report-label">AI 트렌드 리포트</div></div><span class="arrow">→</span></a>
-    <a href="2026-04-25.html" class="report-item"><div><div class="report-date">2026-04-25</div><div class="report-label">AI 트렌드 리포트</div></div><span class="arrow">→</span></a>
-    <a href="2026-04-23.html" class="report-item"><div><div class="report-date">2026-04-23</div><div class="report-label">AI 트렌드 리포트</div></div><span class="arrow">→</span></a>
-    <a href="2026-04-22.html" class="report-item"><div><div class="report-date">2026-04-22</div><div class="report-label">AI 트렌드 리포트</div></div><span class="arrow">→</span></a>
-    <a href="2026-04-21.html" class="report-item"><div><div class="report-date">2026-04-21</div><div class="report-label">AI 트렌드 리포트</div></div><span class="arrow">→</span></a>
-  </div>
+  <header>
+    <span class="eyebrow">📁 Archive</span>
+    <h1>AI 트렌드 리포트 아카이브</h1>
+    <p class="sub">매일 생성되는 AI 트렌드 리포트 전체 목록</p>
+  </header>
+  <ul class="archive-list">
+    <li><a href="2026-05-09.html"><span class="date-label">2026년 5월 9일</span><span class="arrow">→</span></a></li>
+    <li><a href="2026-05-08.html"><span class="date-label">2026년 5월 8일</span><span class="arrow">→</span></a></li>
+    <li><a href="2026-05-07.html"><span class="date-label">2026년 5월 7일</span><span class="arrow">→</span></a></li>
+    <li><a href="2026-05-06.html"><span class="date-label">2026년 5월 6일</span><span class="arrow">→</span></a></li>
+    <li><a href="2026-05-05.html"><span class="date-label">2026년 5월 5일</span><span class="arrow">→</span></a></li>
+    <li><a href="2026-05-04.html"><span class="date-label">2026년 5월 4일</span><span class="arrow">→</span></a></li>
+    <li><a href="2026-05-03.html"><span class="date-label">2026년 5월 3일</span><span class="arrow">→</span></a></li>
+    <li><a href="2026-04-30.html"><span class="date-label">2026년 4월 30일</span><span class="arrow">→</span></a></li>
+    <li><a href="2026-04-28.html"><span class="date-label">2026년 4월 28일</span><span class="arrow">→</span></a></li>
+    <li><a href="2026-04-27.html"><span class="date-label">2026년 4월 27일</span><span class="arrow">→</span></a></li>
+    <li><a href="2026-04-25.html"><span class="date-label">2026년 4월 25일</span><span class="arrow">→</span></a></li>
+    <li><a href="2026-04-23.html"><span class="date-label">2026년 4월 23일</span><span class="arrow">→</span></a></li>
+    <li><a href="2026-04-22.html"><span class="date-label">2026년 4월 22일</span><span class="arrow">→</span></a></li>
+    <li><a href="2026-04-21.html"><span class="date-label">2026년 4월 21일</span><span class="arrow">→</span></a></li>
+  </ul>
+  <footer>
+    <a href="../index.html">← 최신 리포트 보기</a> &nbsp;·&nbsp; AI Trend Bot (자동 생성)
+  </footer>
 </div>
 </body>
 </html>

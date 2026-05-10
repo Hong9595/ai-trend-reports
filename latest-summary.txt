@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.05.09
+🤖 *오늘의 AI 트렌드 요약* — 2026.05.10
 
-핵심 흐름: 사이버보안 AI 쇼크·GPT-5.5 기본 모델화·개발 도구 에이전트화가 동시에 가속
+핵심 흐름: Anthropic×Google 2,000억 달러 TPU 동맹 + Gemma 4 오픈소스 충격 + 멀티에이전트 기업 현실화
 
 🔑 *핫 키워드*
-• Claude Mythos 취약점 파동 (Firefox 300개 발견)
-• GPT-5.5 Instant 기본 모델화 (2개월 만에 교체)
-• AI 네이티브 개발 도구 (Snyk·Opsera·Coder Agents)
-• AlphaEvolve & TurboQuant (LLM 연구 혁신)
-• Cloudflare AI 추론 인프라 (prefill/decode 분리)
+• Anthropic × Google $200B 컴퓨트 계약
+• Gemma 4 (세계 오픈모델 3위, Apache 2.0)
+• 美 CAISI AI 사전 심사 체계 가동
+• 멀티 에이전트 시스템 기업 원년
+• AI 사이버공격 자동화 가속
 
 📰 *주요 기사 3선*
-1. Claude Mythos 취약점 탐지 쇼크 — "위협은 이미 여기 있었다" (CNBC)
-2. GPT-5.5 Instant 기본 모델 교체 & AI 개발자 도구 생태계 확장 (TechCrunch / SD Times)
-3. AlphaEvolve·TurboQuant·Cloudflare — LLM 연구·추론 인프라 3대 혁신 (InfoQ / DeepMind)
+1. Anthropic, 5년간 Google Cloud·TPU에 $2000억 투자 확약 (The Information/Engadget)
+2. Google Gemma 4 Apache 2.0 공개 — 글로벌 오픈모델 3위 등극 (Google DeepMind)
+3. IDC "글로벌 2000대 기업 직무 40%가 AI 에이전트와 협업" — 멀티에이전트 원년 (Gartner/IDC)
 
 💡 *시사점*
-AI 사이버보안 파라독스(공격·방어 동시 가속)와 소프트웨어 개발 에이전트화가 본격화됐습니다. 모델 출시 주기 초가속화로 기업 AI 전략의 유연성이 핵심 경쟁력으로 부상하고 있습니다.
+AI 컴퓨트 공급망이 Nvidia 독점에서 Google TPU 진영으로 분산되는 역사적 전환점이 시작됐습니다. Gemma 4의 오픈소스 3위 달성은 기업 자체 AI 배포 가능성을 크게 높이며, 에이전트 거버넌스가 새로운 핵심 경쟁력으로 부상하고 있습니다.
 
 🔗 풀 리포트 보기 👇

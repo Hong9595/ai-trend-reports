@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.05.11
+🤖 *오늘의 AI 트렌드 요약* — 2026.05.12
 
-핵심 흐름: AI 사이버보안 충격·오픈소스 속도 혁신·국내 AI 포털 재편이 동시에 폭발
+핵심 흐름: AI 에이전트가 기업 실무에 전면 배포되며, 사이버보안 AI의 공격적 능력이 새 경계를 넘다
 
 🔑 *핫 키워드*
-• Claude Mythos + Project Glasswing (Anthropic 보안 AI)
-• Gemma 4 MTP 드래프터 (3배 추론 속도)
-• 업스테이지 × 다음 인수 확정 (Solar LLM 포털화)
-• AI 에이전트 거버넌스 긴급 부상
-• AI 컴퓨트 다극화 (Google TPU vs Nvidia)
+• Workspace Agents (OpenAI)
+• Claude Mythos (Anthropic)
+• watsonx Orchestrate (IBM)
+• AI 거버넌스 & 정부 감독
+• Project Glasswing (방어 연합)
 
 📰 *주요 기사 3선*
-1. Claude Mythos, OS·브라우저 수천 건 제로데이 자율 발굴 — Project Glasswing 40개사 제한 배포 (Anthropic)
-2. Gemma 4 MTP 드래프터 공개 — 품질 손실 없이 추론 속도 최대 3배 향상 (Google AI)
-3. 업스테이지, 카카오로부터 다음(AXZ) 인수 최종 완료 — Solar LLM AI 포털 전환 선언 (Korea Times)
+1. OpenAI, ChatGPT Workspace Agents 정식 출시 — Slack·Salesforce 등 연동 (OpenAI/VentureBeat)
+2. Anthropic Claude Mythos, 17년된 RCE 취약점 자율 발견·익스플로잇 — 보안 업계 충격 (CNBC)
+3. IBM Think 2026: watsonx Orchestrate, 80개 엔터프라이즈 플랫폼 통합 AI 관제 허브 선언 (IBM Newsroom)
 
 💡 *시사점*
-AI가 사이버 공격·방어 모두에서 게임 체인저로 등극한 한편, 오픈소스 모델의 로컬 실용성이 급격히 높아져 클라우드 의존 패러다임이 흔들리고 있습니다. 국내에선 업스테이지-다음 결합으로 AI 포털 3강 체제가 현실화됩니다.
+AI 에이전트의 실용화·보안 패러다임 전환·자본 집중이 동시에 가속화되고 있습니다. 기업은 에이전트 도입 로드맵과 거버넌스 프레임워크를 함께 설계해야 할 시점입니다.
 
 🔗 풀 리포트 보기 👇

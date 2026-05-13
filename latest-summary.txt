@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.05.12
+🤖 *오늘의 AI 트렌드 요약* — 2026.05.13
 
-핵심 흐름: AI 에이전트가 기업 실무에 전면 배포되며, 사이버보안 AI의 공격적 능력이 새 경계를 넘다
+핵심 흐름: AI 무기화 첫 확인·엔터프라이즈 AI 전쟁 본격화·에이전틱 모델 GA
 
 🔑 *핫 키워드*
-• Workspace Agents (OpenAI)
-• Claude Mythos (Anthropic)
-• watsonx Orchestrate (IBM)
-• AI 거버넌스 & 정부 감독
-• Project Glasswing (방어 연합)
+• AI-Generated Zero-Day (최초 확인)
+• OpenAI Deployment Company ($40억)
+• Claude Opus 4.7 정식 출시
+• 2026: AI 사이버공격의 해
+• 자기복제 AI 에이전트 시뮬레이션
 
 📰 *주요 기사 3선*
-1. OpenAI, ChatGPT Workspace Agents 정식 출시 — Slack·Salesforce 등 연동 (OpenAI/VentureBeat)
-2. Anthropic Claude Mythos, 17년된 RCE 취약점 자율 발견·익스플로잇 — 보안 업계 충격 (CNBC)
-3. IBM Think 2026: watsonx Orchestrate, 80개 엔터프라이즈 플랫폼 통합 AI 관제 허브 선언 (IBM Newsroom)
+1. Google, 사이버범죄 집단의 AI 기반 제로데이 익스플로잇 최초 공식 확인 (Bloomberg/SecurityWeek)
+2. OpenAI, 400억 달러 규모 Deployment Company 출범 — 기업 AI 컨설팅 전쟁 선포 (OpenAI)
+3. Claude Opus 4.7 GA — 태스크 버짓·고해상도 비전으로 에이전틱 워크플로우 강화 (Anthropic)
 
 💡 *시사점*
-AI 에이전트의 실용화·보안 패러다임 전환·자본 집중이 동시에 가속화되고 있습니다. 기업은 에이전트 도입 로드맵과 거버넌스 프레임워크를 함께 설계해야 할 시점입니다.
+AI는 실험실을 완전히 벗어났습니다. 공격(AI 제로데이)·상업화(Deployment Co.)·에이전트 성숙(Opus 4.7)이 동시에 가속화되는 복잡계 국면으로, AI 포렌식·에이전트 Observability·엔터프라이즈 통합 역량이 새 핵심 경쟁력으로 부상하고 있습니다.
 
 🔗 풀 리포트 보기 👇

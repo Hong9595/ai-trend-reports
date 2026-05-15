@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.05.13
+🤖 *오늘의 AI 트렌드 요약* — 2026.05.15
 
-핵심 흐름: AI 무기화 첫 확인·엔터프라이즈 AI 전쟁 본격화·에이전틱 모델 GA
+핵심 흐름: AI가 기업·플랫폼·사회 세 전선을 동시에 재편 — 공익 파트너십·모바일 생태계 전쟁·중국 오픈웨이트 공세가 하루에 터졌다
 
 🔑 *핫 키워드*
-• AI-Generated Zero-Day (최초 확인)
-• OpenAI Deployment Company ($40억)
-• Claude Opus 4.7 정식 출시
-• 2026: AI 사이버공격의 해
-• 자기복제 AI 에이전트 시뮬레이션
+• Anthropic × Gates Foundation 2억 달러 파트너십
+• Gemini Intelligence — Android 전면 재편
+• 중국 LLM 4종 동시 공개 (DeepSeek V4·Kimi K2.6·GLM-5.1·MiniMax M2.7)
+• 에이전틱 AI 기업 도입 가속 (Gartner: 2026년 기업 앱 40%)
+• ClawBench — 실제 프로덕션 사이트 기반 에이전트 벤치마크
 
 📰 *주요 기사 3선*
-1. Google, 사이버범죄 집단의 AI 기반 제로데이 익스플로잇 최초 공식 확인 (Bloomberg/SecurityWeek)
-2. OpenAI, 400억 달러 규모 Deployment Company 출범 — 기업 AI 컨설팅 전쟁 선포 (OpenAI)
-3. Claude Opus 4.7 GA — 태스크 버짓·고해상도 비전으로 에이전틱 워크플로우 강화 (Anthropic)
+1. Anthropic·Gates Foundation 2억 달러 파트너십 — 글로벌 보건·교육·농업에 Claude 직접 투입 (Anthropic)
+2. Google, Apple AI 공세 전 Android를 Gemini 중심으로 전면 재설계 (CNBC)
+3. 중국 AI 4개 연구소, 12일 만에 고성능 오픈웨이트 코딩 모델 연달아 공개 (Air Street Press)
 
 💡 *시사점*
-AI는 실험실을 완전히 벗어났습니다. 공격(AI 제로데이)·상업화(Deployment Co.)·에이전트 성숙(Opus 4.7)이 동시에 가속화되는 복잡계 국면으로, AI 포렌식·에이전트 Observability·엔터프라이즈 통합 역량이 새 핵심 경쟁력으로 부상하고 있습니다.
+AI가 '기업 생산성 도구'를 넘어 글로벌 공익 인프라로 편입되는 동시에, 플랫폼 전쟁·비용 경쟁까지 세 전선에서 동시에 확산 중. 중국 오픈웨이트 모델의 가격 파괴는 서방 LLM 시장의 경쟁 구도를 근본적으로 뒤흔들 전망.
 
 🔗 풀 리포트 보기 👇

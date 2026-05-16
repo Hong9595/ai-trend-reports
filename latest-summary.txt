@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.05.15
+🤖 *오늘의 AI 트렌드 요약* — 2026.05.16
 
-핵심 흐름: AI가 기업·플랫폼·사회 세 전선을 동시에 재편 — 공익 파트너십·모바일 생태계 전쟁·중국 오픈웨이트 공세가 하루에 터졌다
+핵심 흐름: AI 에이전트 대중화 본격화 — OpenAI 기업 파견 모델 출시, Anthropic 기업 채택 1위 등극, 신뢰성 경고 동시 등장
 
 🔑 *핫 키워드*
-• Anthropic × Gates Foundation 2억 달러 파트너십
-• Gemini Intelligence — Android 전면 재편
-• 중국 LLM 4종 동시 공개 (DeepSeek V4·Kimi K2.6·GLM-5.1·MiniMax M2.7)
-• 에이전틱 AI 기업 도입 가속 (Gartner: 2026년 기업 앱 40%)
-• ClawBench — 실제 프로덕션 사이트 기반 에이전트 벤치마크
+• 에이전트 상용화 (OpenAI Deployment Company)
+• Anthropic 기업 AI 채택 1위
+• 에이전트 신뢰성 경고 (Microsoft Research)
+• 모바일 코딩 에이전트 (Codex iOS/Android)
+• AI 사전 검토 규제 강화
 
 📰 *주요 기사 3선*
-1. Anthropic·Gates Foundation 2억 달러 파트너십 — 글로벌 보건·교육·농업에 Claude 직접 투입 (Anthropic)
-2. Google, Apple AI 공세 전 Android를 Gemini 중심으로 전면 재설계 (CNBC)
-3. 중국 AI 4개 연구소, 12일 만에 고성능 오픈웨이트 코딩 모델 연달아 공개 (Air Street Press)
+1. OpenAI, 40억 달러 'Deployment Company' 설립 + 모바일 Codex 개방 (TechCrunch)
+2. Anthropic 기업 채택률 34.4%로 OpenAI 첫 추월 — Ramp AI Index 발표 (VentureBeat)
+3. Microsoft 연구: 최전선 AI 에이전트도 장기 작업에서 오류·데이터 손상 빈발 (DeepLearning.AI)
 
 💡 *시사점*
-AI가 '기업 생산성 도구'를 넘어 글로벌 공익 인프라로 편입되는 동시에, 플랫폼 전쟁·비용 경쟁까지 세 전선에서 동시에 확산 중. 중국 오픈웨이트 모델의 가격 파괴는 서방 LLM 시장의 경쟁 구도를 근본적으로 뒤흔들 전망.
+에이전트 혁명은 이미 현장에 착지했지만, 신뢰성이라는 숙제가 여전히 남아 있습니다. 2026년 하반기 AI 패권은 "더 똑똑한 모델"이 아니라 "더 신뢰받는 에이전트"를 누가 먼저 만드느냐로 결정될 것입니다.
 
 🔗 풀 리포트 보기 👇

@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.05.16
+🤖 *오늘의 AI 트렌드 요약* — 2026.05.17
 
-핵심 흐름: AI 에이전트 대중화 본격화 — OpenAI 기업 파견 모델 출시, Anthropic 기업 채택 1위 등극, 신뢰성 경고 동시 등장
+핵심 흐름: AI가 아키텍처·자율성·생태계 전쟁으로 진화 중 — AlphaEvolve가 알고리즘을 스스로 발견하고, 트랜스포머 대체 아키텍처가 등장했으며, 국내에선 업스테이지가 AI 포털 시장 참전
 
 🔑 *핫 키워드*
-• 에이전트 상용화 (OpenAI Deployment Company)
-• Anthropic 기업 AI 채택 1위
-• 에이전트 신뢰성 경고 (Microsoft Research)
-• 모바일 코딩 에이전트 (Codex iOS/Android)
-• AI 사전 검토 규제 강화
+• AlphaEvolve (Gemini 기반 알고리즘 자가 발견)
+• 서브쿼드라틱 어텐션 (트랜스포머 대체 아키텍처)
+• 멀티에이전트 API (Notion 외부 에이전트 개방)
+• 업스테이지 × 다음 (한국형 AI 포털)
+• AI 보안 위협 (100만 노출 서비스 취약점)
 
 📰 *주요 기사 3선*
-1. OpenAI, 40억 달러 'Deployment Company' 설립 + 모바일 Codex 개방 (TechCrunch)
-2. Anthropic 기업 채택률 34.4%로 OpenAI 첫 추월 — Ramp AI Index 발표 (VentureBeat)
-3. Microsoft 연구: 최전선 AI 에이전트도 장기 작업에서 오류·데이터 손상 빈발 (DeepLearning.AI)
+1. Google DeepMind AlphaEvolve — Gemini로 수십 년 수학 난제·TPU 최적화 해결 (Google DeepMind)
+2. SubQ 서브쿼드라틱 LLM — 12M 토큰 컨텍스트, 비용 1/5, 속도 52배 향상 (WhatLLM.org)
+3. 업스테이지, 다음 운영사 AXZ 인수 확정 — Solar LLM 기반 AI 검색 포털 출범 예고 (Aboda)
 
 💡 *시사점*
-에이전트 혁명은 이미 현장에 착지했지만, 신뢰성이라는 숙제가 여전히 남아 있습니다. 2026년 하반기 AI 패권은 "더 똑똑한 모델"이 아니라 "더 신뢰받는 에이전트"를 누가 먼저 만드느냐로 결정될 것입니다.
+AlphaEvolve로 AI의 자율적 과학 발견이 현실화됐고, SubQ로 트랜스포머 패러다임에 균열이 생겼습니다. 하반기엔 비용 경쟁력·멀티에이전트 오케스트레이션·AI 보안 거버넌스가 기업 전략의 3대 축이 될 것입니다.
 
 🔗 풀 리포트 보기 👇

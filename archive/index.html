@@ -7,48 +7,49 @@
 <style>
   :root { --bg:#0f1115; --surface:#171a21; --accent:#7c9cff; --text:#e8ecf4; --muted:#9aa4b2; --border:#272d38; }
   * { box-sizing: border-box; }
-  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",sans-serif; background:var(--bg); color:var(--text); }
-  .container { max-width:720px; margin:0 auto; padding:48px 28px 80px; }
-  h1 { font-size:26px; margin:0 0 6px; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Malgun Gothic",sans-serif; background:var(--bg); color:var(--text); }
+  .container { max-width:760px; margin:0 auto; padding:48px 28px 80px; }
+  h1 { font-size:26px; margin:0 0 8px; }
   .sub { color:var(--muted); font-size:14px; margin:0 0 36px; }
-  .back { display:inline-flex; align-items:center; gap:6px; font-size:13px; color:var(--muted); text-decoration:none; padding:6px 14px; border:1px solid var(--border); border-radius:8px; margin-bottom:32px; }
+  .back { display:inline-flex; align-items:center; gap:6px; font-size:13px; font-weight:600; color:var(--muted); text-decoration:none; padding:6px 14px; border:1px solid var(--border); border-radius:8px; margin-bottom:28px; }
   .back:hover { color:var(--accent); border-color:var(--accent); }
   .list { display:flex; flex-direction:column; gap:10px; }
-  .item { display:flex; align-items:center; justify-content:space-between; background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:14px 18px; text-decoration:none; color:var(--text); transition:border-color 0.2s; }
+  .item { display:flex; align-items:center; justify-content:space-between; background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px 20px; text-decoration:none; color:var(--text); transition:border-color 0.2s; }
   .item:hover { border-color:var(--accent); }
-  .date { font-size:15px; font-weight:600; }
+  .item-date { font-size:15px; font-weight:600; }
+  .item-label { font-size:12px; color:var(--muted); }
   .arrow { color:var(--accent); font-size:16px; }
-  footer { margin-top:48px; font-size:12px; color:var(--muted); }
 </style>
 </head>
 <body>
 <div class="container">
-  <a href="../index.html" class="back">← 최신 리포트로 돌아가기</a>
+  <a href="../index.html" class="back">← 최신 리포트로</a>
   <h1>📂 AI 트렌드 리포트 아카이브</h1>
-  <p class="sub">날짜별 과거 리포트 목록 (최신순)</p>
+  <p class="sub">과거 일별 리포트 전체 목록 (최신순)</p>
   <div class="list">
-    <a class="item" href="2026-05-17.html"><span class="date">2026년 5월 17일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-05-15.html"><span class="date">2026년 5월 15일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-05-13.html"><span class="date">2026년 5월 13일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-05-12.html"><span class="date">2026년 5월 12일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-05-11.html"><span class="date">2026년 5월 11일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-05-10.html"><span class="date">2026년 5월 10일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-05-09.html"><span class="date">2026년 5월 9일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-05-08.html"><span class="date">2026년 5월 8일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-05-07.html"><span class="date">2026년 5월 7일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-05-06.html"><span class="date">2026년 5월 6일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-05-05.html"><span class="date">2026년 5월 5일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-05-04.html"><span class="date">2026년 5월 4일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-05-03.html"><span class="date">2026년 5월 3일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-04-30.html"><span class="date">2026년 4월 30일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-04-28.html"><span class="date">2026년 4월 28일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-04-27.html"><span class="date">2026년 4월 27일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-04-25.html"><span class="date">2026년 4월 25일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-04-23.html"><span class="date">2026년 4월 23일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-04-22.html"><span class="date">2026년 4월 22일</span><span class="arrow">→</span></a>
-    <a class="item" href="2026-04-21.html"><span class="date">2026년 4월 21일</span><span class="arrow">→</span></a>
+    <a href="2026-05-19.html" class="item"><span class="item-date">2026-05-19</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-05-17.html" class="item"><span class="item-date">2026-05-17</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-05-16.html" class="item"><span class="item-date">2026-05-16</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-05-15.html" class="item"><span class="item-date">2026-05-15</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-05-13.html" class="item"><span class="item-date">2026-05-13</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-05-12.html" class="item"><span class="item-date">2026-05-12</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-05-11.html" class="item"><span class="item-date">2026-05-11</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-05-10.html" class="item"><span class="item-date">2026-05-10</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-05-09.html" class="item"><span class="item-date">2026-05-09</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-05-08.html" class="item"><span class="item-date">2026-05-08</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-05-07.html" class="item"><span class="item-date">2026-05-07</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-05-06.html" class="item"><span class="item-date">2026-05-06</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-05-05.html" class="item"><span class="item-date">2026-05-05</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-05-04.html" class="item"><span class="item-date">2026-05-04</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-05-03.html" class="item"><span class="item-date">2026-05-03</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-04-30.html" class="item"><span class="item-date">2026-04-30</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-04-28.html" class="item"><span class="item-date">2026-04-28</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-04-27.html" class="item"><span class="item-date">2026-04-27</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-04-25.html" class="item"><span class="item-date">2026-04-25</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-04-23.html" class="item"><span class="item-date">2026-04-23</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-04-22.html" class="item"><span class="item-date">2026-04-22</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
+    <a href="2026-04-21.html" class="item"><span class="item-date">2026-04-21</span><span class="item-label">일별 AI 트렌드 리포트</span><span class="arrow">→</span></a>
   </div>
-  <footer>AI Trend Bot · 자동 생성</footer>
 </div>
 </body>
 </html>

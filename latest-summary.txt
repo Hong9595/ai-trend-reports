@@ -1,20 +1,20 @@
-🤖 *오늘의 AI 트렌드 요약* — 2026.05.17
+🤖 *오늘의 AI 트렌드 요약* — 2026.05.19
 
-핵심 흐름: AI가 아키텍처·자율성·생태계 전쟁으로 진화 중 — AlphaEvolve가 알고리즘을 스스로 발견하고, 트랜스포머 대체 아키텍처가 등장했으며, 국내에선 업스테이지가 AI 포털 시장 참전
+핵심 흐름: Google I/O 2026 개막 — Gemini 4.0·에이전트·XR 글래스, Anthropic 9,000억 달러 밸류에이션으로 OpenAI 추월 목전
 
 🔑 *핫 키워드*
-• AlphaEvolve (Gemini 기반 알고리즘 자가 발견)
-• 서브쿼드라틱 어텐션 (트랜스포머 대체 아키텍처)
-• 멀티에이전트 API (Notion 외부 에이전트 개방)
-• 업스테이지 × 다음 (한국형 AI 포털)
-• AI 보안 위협 (100만 노출 서비스 취약점)
+• Google I/O 2026 (Gemini 4.0·Gemini Spark·Aluminium OS 발표)
+• Anthropic 9,000억 달러 (ARR 440억, YoY 80배 성장)
+• GPT-5.5 Instant (환각 52.5% 감소, ChatGPT 기본 모델 전환)
+• Claude Mythos (사이버보안 특화 모델, 32단계 침투 시뮬레이션 통과)
+• MCP 9,700만 다운로드 (전 주요 AI 제공사 채택 완료)
 
 📰 *주요 기사 3선*
-1. Google DeepMind AlphaEvolve — Gemini로 수십 년 수학 난제·TPU 최적화 해결 (Google DeepMind)
-2. SubQ 서브쿼드라틱 LLM — 12M 토큰 컨텍스트, 비용 1/5, 속도 52배 향상 (WhatLLM.org)
-3. 업스테이지, 다음 운영사 AXZ 인수 확정 — Solar LLM 기반 AI 검색 포털 출범 예고 (Aboda)
+1. Google I/O 2026 개막 — Gemini 4.0·AI 에이전트·Android XR 글래스 세계 첫 공개 (Android Central)
+2. Anthropic, 기업가치 9,000억 달러로 OpenAI 제치고 AI 최고 밸류에이션 목전 (Bloomberg)
+3. OpenAI GPT-5.5 Instant 출시 — 환각 52.5% 감소, ChatGPT 기본 모델 전환 (TechCrunch)
 
 💡 *시사점*
-AlphaEvolve로 AI의 자율적 과학 발견이 현실화됐고, SubQ로 트랜스포머 패러다임에 균열이 생겼습니다. 하반기엔 비용 경쟁력·멀티에이전트 오케스트레이션·AI 보안 거버넌스가 기업 전략의 3대 축이 될 것입니다.
+AI 에이전트 대전이 본격화되는 역사적인 하루입니다. Google·Anthropic·OpenAI가 모두 에이전트 패러다임으로 전환하는 가운데, MCP 표준이 AI 생태계의 공통 배선이 되고 있습니다.
 
 🔗 풀 리포트 보기 👇
